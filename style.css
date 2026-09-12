@@ -4,9 +4,283 @@
 
 body {
     margin: 0;
+    background-color: #F4F0E7;
+    color: #151513;
     font-family: Arial, sans-serif;
 }
 
-h1 {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #B96543;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #F4F0E7;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #F4F0E7;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 70px 45px 70px;
+}
+
+.about-text {
+    width: 52%;
+}
+
+.about-text h2 {
+    margin: 0 0 25px 0;
+    font-size: 52px;
+    color: #B96543;
+    font-weight: 700;
+}
+
+.about-text p {
+    margin: 0;
+    max-width: 700px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.about-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.skills {
+    padding: 45px 70px 70px 70px;
+}
+
+.skills h2 {
+    margin: 0 0 35px 0;
+    font-size: 42px;
+    color: #B96543;
+    font-weight: 700;
+}
+
+.skill-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-list li {
+    flex: 1;
+    background-color: #E8E0D3;
+    border-radius: 10px;
+    padding: 30px 25px;
     text-align: center;
+    font-size: 18px;
+}
+
+.info-blocks {
+    display: flex;
+    gap: 30px;
+    padding: 70px;
+}
+
+.hobbies,
+.voluntary-work {
+    flex: 1;
+    background-color: #E8E0D3;
+    border-radius: 14px;
+    padding: 40px;
+    min-height: 230px;
+}
+
+.hobbies h2,
+.voluntary-work h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #B96543;
+    font-size: 24px;
+}
+
+.hobbies ul {
+    padding-left: 20px;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.voluntary-work p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.projects {
+    margin: 80px 70px;
+    padding: 60px;
+    min-height: 300px;
+    background-color: #B96543;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects h2 {
+    margin: 0 0 25px 0;
+    font-size: 20px;
+    color: #F4F0E7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.projects p {
+    max-width: 750px;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #F4F0E7;
+}
+
+.projects a {
+    color: #F4F0E7;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact {
+    padding: 80px 70px;
+}
+
+.contact h2 {
+    margin-top: 0;
+    color: #B96543;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact a {
+    color: #B96543;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 35px 70px;
+    background-color: #E8E0D3;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header,
+    .about,
+    .skills,
+    .info-blocks,
+    .contact {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .about-text p {
+        font-size: 30px;
+    }
+
+    .skill-list {
+        flex-wrap: wrap;
+    }
+
+    .skill-list li {
+        flex: 1 1 40%;
+    }
+
+    .projects {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 25px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text p {
+        font-size: 28px;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .skills {
+        padding: 60px 20px;
+    }
+
+    .skill-list {
+        flex-direction: column;
+    }
+
+    .info-blocks {
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+    .projects {
+        margin: 60px 20px;
+        padding: 40px 25px;
+        min-height: 280px;
+    }
+
+    .projects p {
+        font-size: 25px;
+    }
+
+    .contact {
+        padding: 60px 20px;
+    }
 }
