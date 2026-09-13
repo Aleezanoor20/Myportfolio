@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 50px 40px;
-    background-color: #B96543;
+    background-color: #A75838;
 }
 
 header h1 {
@@ -62,7 +62,7 @@ nav a {
 .about-text h2 {
     margin: 0 0 25px 0;
     font-size: 52px;
-    color: #B96543;
+    color: #A75838;
     font-weight: 700;
 }
 
@@ -93,7 +93,7 @@ nav a {
 .skills h2 {
     margin: 0 0 35px 0;
     font-size: 42px;
-    color: #B96543;
+    color: #A75838;
     font-weight: 700;
 }
 
@@ -133,7 +133,7 @@ nav a {
 .voluntary-work h2 {
     margin-top: 0;
     margin-bottom: 25px;
-    color: #B96543;
+    color: #A75838;
     font-size: 24px;
 }
 
@@ -152,7 +152,7 @@ nav a {
     margin: 80px 70px;
     padding: 60px;
     min-height: 300px;
-    background-color: #B96543;
+    background-color: #A75838;
     border-radius: 14px;
     display: flex;
     flex-direction: column;
@@ -188,14 +188,14 @@ nav a {
 
 .contact h2 {
     margin-top: 0;
-    color: #B96543;
+    color: #A75838;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .contact a {
-    color: #B96543;
+    color: #A75838;
 }
 
 footer {
@@ -307,7 +307,7 @@ footer p {
 .project-intro h2 {
     margin: 0 0 15px 0;
     font-size: 52px;
-    color: #B96543;
+    color: #A75838;
 }
 
 .project-intro p {
@@ -339,13 +339,13 @@ footer p {
 }
 
 .project-card h2 {
-    color: #B96543;
+    color: #A75838;
     font-size: 30px;
     margin: 25px 0 15px 0;
 }
 
 .project-card h3 {
-    color: #B96543;
+    color: #A75838;
     font-size: 19px;
     margin: 25px 0 8px 0;
 }
@@ -391,6 +391,7 @@ footer p {
         height: 220px;
     }
 }
+
 .blog-page {
     padding: 70px;
 }
@@ -403,96 +404,7 @@ footer p {
 .blog-intro h2 {
     margin: 0 0 15px 0;
     font-size: 52px;
-    color: #B96543;
-}
-
-.blog-intro p {
-    margin: 0 auto;
-    max-width: 600px;
-    font-size: 20px;
-    line-height: 1.6;
-}
-
-.blog-list {
-    display: flex;
-    gap: 30px;
-    align-items: stretch;
-}
-
-.blog-card {
-    flex: 1;
-    background-color: #E8E0D3;
-    border: 1px solid #C9C0B3;
-    border-radius: 18px;
-    padding: 35px;
-    min-height: 260px;
-}
-
-.blog-card h2 {
-    color: #B96543;
-    font-size: 27px;
-    margin: 0 0 25px 0;
-}
-
-.blog-card p {
-    margin: 0;
-    font-size: 17px;
-    line-height: 1.7;
-}
-
-@media (max-width: 768px) {
-    .blog-page {
-        padding: 50px 35px;
-    }
-
-    .blog-list {
-        flex-wrap: wrap;
-    }
-
-    .blog-card {
-        flex: 1 1 40%;
-    }
-}
-
-@media (max-width: 480px) {
-    .blog-page {
-        padding: 40px 20px;
-    }
-
-    .blog-intro {
-        margin-bottom: 40px;
-    }
-
-    .blog-intro h2 {
-        font-size: 40px;
-    }
-
-    .blog-intro p {
-        font-size: 17px;
-    }
-
-    .blog-list {
-        flex-direction: column;
-    }
-
-    .blog-card {
-        min-height: auto;
-        padding: 30px;
-    }
-}
-.blog-page {
-    padding: 70px;
-}
-
-.blog-intro {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.blog-intro h2 {
-    margin: 0 0 15px 0;
-    font-size: 52px;
-    color: #B96543;
+    color: #A75838;
 }
 
 .blog-intro p {
@@ -540,7 +452,7 @@ footer p {
 
 .blog-content h2 {
     margin: 0 0 20px 0;
-    color: #B96543;
+    color: #A75838;
     font-size: 32px;
 }
 
