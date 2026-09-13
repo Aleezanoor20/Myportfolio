@@ -1,12 +1,23 @@
 * {
     box-sizing: border-box;
 }
+html,
+body {
+    min-height: 100%;
+}
+
 
 body {
     margin: 0;
     background-color: #F4F0E7;
     color: #151513;
-    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 header {
