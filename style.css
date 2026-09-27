@@ -519,3 +519,123 @@ footer p {
         font-size: 16px;
     }
 }
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+#contact-form label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: 1px solid #C9C0B3;
+    border-radius: 8px;
+    background-color: #F4F0E7;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+#contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contact-form span {
+    min-height: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #A75838;
+}
+
+#contact-form button {
+    padding: 12px 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #A75838;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    opacity: 0.9;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: 2px solid #A75838;
+    outline-offset: 2px;
+}
+
+#form-status {
+    min-height: 24px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#sort-projects {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 12px 22px;
+    background-color: #A75838;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sort-projects:hover {
+    opacity: 0.9;
+}
+
+#sort-projects:focus {
+    outline: 2px solid #151513;
+    outline-offset: 3px;
+}
+
+#quote-box {
+    background-color: #E8E0D3;
+    border: 1px solid #C9C0B3;
+    border-radius: 15px;
+    padding: 18px 22px;
+    max-width: 300px;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#quote-box h3 {
+    color: #A75838;
+    font-size: 20px;
+    margin: 0 0 12px 0;
+}
+
+#quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+#quote-author {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}

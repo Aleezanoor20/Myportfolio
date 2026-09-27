@@ -44,6 +44,12 @@
 
             </div>
 
+                <div id="quote-box">
+        <h3>Quote of the Day</h3>
+        <p id="quote">Loading quote...</p>
+        <p id="quote-author"></p>
+    </div>
+
             <div class="about-image">
 
                 <img src="images/Portfolio.png"
@@ -115,7 +121,24 @@
         <section class="contact">
 
             <h2>Contact Me</h2>
+            <form id="contact-form" novalidate>
 
+            <label for="name">Name</label>
+            <input type="text" id="name" required aria-describedby="name-error">
+            <span id="name-error"></span>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required aria-describedby="email-error">
+                <span id="email-error"></span>
+
+                <label for="message">Message</label>
+                <textarea id="message" minlength="10" required aria-describedby="message-error"></textarea>
+                <span id="message-error"></span>
+
+                <button type="submit">Send Message</button>
+
+                 <p id="form-status" aria-live="polite"></p>
+        </form>
             <p>
                 Email:
                 <a href="mailto:24082473@student.hhs.nl">
@@ -142,7 +165,8 @@
         <p>&copy; 2026 Aleeza Noor</p>
 
     </footer>
-
+<script src="contact.js"></script>
+<script src="quote.js"></script>
 </body>
 
 </html>
